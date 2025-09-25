@@ -1,0 +1,1 @@
+# waste managment is git project
