@@ -16,4 +16,3 @@ def register_restaurant():
 
     return jsonify({'message': 'Restaurant registered', 'id': rest.id})
 
-#test commit
