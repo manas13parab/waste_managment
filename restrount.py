@@ -15,3 +15,5 @@ def register_restaurant():
     db.session.commit()
 
     return jsonify({'message': 'Restaurant registered', 'id': rest.id})
+
+#test commit
