@@ -1,4 +1,3 @@
-
 from flask import request, jsonify
 from app import app, db
 from models import Restaurant
@@ -15,4 +14,3 @@ def register_restaurant():
     db.session.commit()
 
     return jsonify({'message': 'Restaurant registered', 'id': rest.id})
-
