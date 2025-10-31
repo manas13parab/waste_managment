@@ -1,0 +1,10 @@
+
+db_users = []
+db_restaurants = []
+db_staff = []
+db_waste = []
+db_inventory = []
+db_orders = []
+db_suppliers = []
+db_notifications = []
+db_logs = []
