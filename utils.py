@@ -1,4 +1,3 @@
-
 db_users = []
 db_restaurants = []
 db_staff = []
