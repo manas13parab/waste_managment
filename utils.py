@@ -7,3 +7,5 @@ db_orders = []
 db_suppliers = []
 db_notifications = []
 db_logs = []
+#
+db_logs = []
