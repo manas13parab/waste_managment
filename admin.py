@@ -7,7 +7,7 @@ def dashboard(handler, query):
         'orders_count': len(db_orders),
         'total_waste': sum(w['quantity'] for w in db_waste)
     }
-    handler.send_response(500)
+    handler.send_response(200)
     handler.send_header('Content-Type', 'application/json')
     handler.end_headers()
     handler.wfile.write(json.dumps(data).encode())
