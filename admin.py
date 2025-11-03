@@ -11,3 +11,4 @@ def dashboard(handler, query):
     handler.send_header('Content-Type', 'application/json')
     handler.end_headers()
     handler.wfile.write(json.dumps(data).encode())
+    
